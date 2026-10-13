@@ -1,0 +1,5 @@
+{
+  "sap-docs": {
+    "command": "${CLAUDE_PLUGIN_ROOT}/sap-docs-mcp.sh"
+  }
+}

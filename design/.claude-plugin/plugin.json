@@ -1,0 +1,18 @@
+{
+  "name": "design",
+  "version": "0.3.0",
+  "description": "UI/UX design workspace: design skills in skills/, MCP servers in .mcp.json, third-party plugins as dependencies",
+  "author": {
+    "name": "flh-dev"
+  },
+  "dependencies": [
+    "frontend-design@claude-plugins-official",
+    "playwright@claude-plugins-official",
+    "document-skills@anthropic-agent-skills",
+    "ui-ux-pro-max",
+    "interface-design",
+    "web-quality-skills",
+    "web-design-guidelines",
+    "emil-design-skills"
+  ]
+}

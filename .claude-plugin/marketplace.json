@@ -1,0 +1,114 @@
+{
+  "name": "workspaces",
+  "owner": {
+    "name": "flh-dev"
+  },
+  "description": "Workspace types: one plugin bundle per kind of work, enabled per project with --scope local",
+  "allowCrossMarketplaceDependenciesOn": [
+    "claude-plugins-official",
+    "anthropic-agent-skills"
+  ],
+  "plugins": [
+    {
+      "name": "design",
+      "source": "./design",
+      "description": "UI/UX design workspace"
+    },
+    {
+      "name": "sap",
+      "source": "./sap",
+      "description": "SAP development workspace"
+    },
+    {
+      "name": "sap-btp",
+      "source": "./sap-btp",
+      "description": "SAP BTP add-on: CAP, Fiori, UI5 (official SAP plugins)"
+    },
+    {
+      "name": "m365",
+      "source": "./m365",
+      "description": "Microsoft 365 workspace"
+    },
+    {
+      "name": "python",
+      "source": "./python",
+      "description": "Python workspace"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "description": "Third-party, pinned: UI styles, palettes, font pairings, design-system reasoning",
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "sha": "7246805992a42b7bba37d4cac83b01416f0c6c44"
+      }
+    },
+    {
+      "name": "interface-design",
+      "description": "Third-party, pinned: keeps design decisions consistent across sessions",
+      "source": {
+        "source": "github",
+        "repo": "Dammyjay93/interface-design",
+        "sha": "2f9be3206855bcb2d1d0af262c8bae25cba6658d"
+      }
+    },
+    {
+      "name": "web-quality-skills",
+      "description": "Third-party, pinned: WCAG 2.2 accessibility, performance, Core Web Vitals audits",
+      "source": {
+        "source": "github",
+        "repo": "addyosmani/web-quality-skills",
+        "sha": "afa8da942115f2961fdbfa80807ea0b232ff6c00"
+      }
+    },
+    {
+      "name": "web-design-guidelines",
+      "description": "Third-party, pinned: Vercel's UI review against the Web Interface Guidelines",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vercel-labs/agent-skills.git",
+        "path": "skills/web-design-guidelines",
+        "sha": "063bee94c3f4df8453406c830b0a7df0f2860278"
+      }
+    },
+    {
+      "name": "emil-design-skills",
+      "description": "Third-party, pinned: Emil Kowalski design engineering (animation, polish, Apple-style motion for the web)",
+      "source": {
+        "source": "github",
+        "repo": "emilkowalski/skills",
+        "sha": "2d228630ba1446365f614a108cb8252f1feda202"
+      }
+    },
+    {
+      "name": "skill-scanner",
+      "description": "Third-party, pinned: Sentry static security scanner for agent skills (prompt injection, malicious scripts, permissions, secrets). Global tool, used before adding any skill.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/getsentry/skills.git",
+        "path": "skills/skill-scanner",
+        "sha": "d18b7aa8ba878354e5c348310230e652f7690f9c"
+      }
+    },
+    {
+      "name": "spfx-dev-skills",
+      "description": "Third-party (Microsoft, preview), pinned: SharePoint Framework create/upgrade/design/PnPjs playbooks",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/SharePoint/spfx-dev-skills.git",
+        "path": "plugins/spfx",
+        "sha": "31010d241bd84821d32ebfa50eda1fe81a6f0b86"
+      }
+    },
+    {
+      "name": "codex",
+      "description": "Third-party (OpenAI), pinned: Codex reviews and task delegation as a second opinion. Global tool (user scope).",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/codex-plugin-cc.git",
+        "path": "plugins/codex",
+        "sha": "db52e28f4d9ded852ab3942cea316258ae4ef346"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Runtime state written by check-pins.sh
+.pins-reviewed
+.pins-status
+.pins-status.*

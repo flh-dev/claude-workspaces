@@ -1,0 +1,6 @@
+{
+  "name": "sap",
+  "version": "0.2.0",
+  "description": "SAP base workspace for every SAP project: SAP documentation search (local Docker build of mcp-sap-docs). Landscape add-ons: sap-btp (later sap-abap).",
+  "author": { "name": "flh-dev" }
+}

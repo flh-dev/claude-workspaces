@@ -1,0 +1,9 @@
+{
+  "name": "python",
+  "version": "0.1.0",
+  "description": "Python workspace: Pyright language server for type errors and code navigation (needs pyright on PATH)",
+  "author": { "name": "flh-dev" },
+  "dependencies": [
+    "pyright-lsp@claude-plugins-official"
+  ]
+}

@@ -1,0 +1,2 @@
+# name<TAB>git url<TAB>ref<TAB>pinned sha. Bumping = git checkout <new sha> in the source dir, scan, rebuild the image, update the tag in the workspace .mcp.json
+sap-docs (docker, ~/.local/share/mcp-sap-docs)	https://github.com/marianfoo/mcp-sap-docs.git	HEAD	ab9c2a73317ed7a162522b9fec564c0d217c1686
