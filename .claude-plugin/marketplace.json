@@ -35,6 +35,11 @@
       "description": "Python workspace"
     },
     {
+      "name": "notes",
+      "source": "./notes",
+      "description": "Notes workspace: Obsidian vault, second brain"
+    },
+    {
       "name": "ui-ux-pro-max",
       "description": "Third-party, pinned: UI styles, palettes, font pairings, design-system reasoning",
       "source": {
@@ -108,6 +113,15 @@
         "url": "https://github.com/openai/codex-plugin-cc.git",
         "path": "plugins/codex",
         "sha": "db52e28f4d9ded852ab3942cea316258ae4ef346"
+      }
+    },
+    {
+      "name": "obsidian",
+      "description": "Third-party (Obsidian, kepano), pinned: Obsidian Flavored Markdown, Bases, Canvas, Obsidian CLI, defuddle, knap",
+      "source": {
+        "source": "github",
+        "repo": "kepano/obsidian-skills",
+        "sha": "3ccff5338ea700537839b21900aa5358a0402c98"
       }
     }
   ]
