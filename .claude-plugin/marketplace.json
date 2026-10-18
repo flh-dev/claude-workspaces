@@ -106,16 +106,6 @@
       }
     },
     {
-      "name": "codex",
-      "description": "Third-party (OpenAI), pinned: Codex reviews and task delegation as a second opinion. Global tool (user scope).",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/openai/codex-plugin-cc.git",
-        "path": "plugins/codex",
-        "sha": "db52e28f4d9ded852ab3942cea316258ae4ef346"
-      }
-    },
-    {
       "name": "obsidian",
       "description": "Third-party (Obsidian, kepano), pinned: Obsidian Flavored Markdown, Bases, Canvas, Obsidian CLI, defuddle, knap",
       "source": {
