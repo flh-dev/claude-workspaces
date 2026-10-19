@@ -1,6 +1,6 @@
 {
   "name": "design",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "UI/UX design workspace: design skills in skills/, MCP servers in .mcp.json, third-party plugins as dependencies",
   "author": {
     "name": "flh-dev"
@@ -13,6 +13,7 @@
     "interface-design",
     "web-quality-skills",
     "web-design-guidelines",
-    "emil-design-skills"
+    "emil-design-skills",
+    "taste-skill"
   ]
 }

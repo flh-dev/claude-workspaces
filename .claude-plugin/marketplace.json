@@ -86,6 +86,19 @@
       }
     },
     {
+      "name": "taste-skill",
+      "description": "Third-party, pinned: art direction for web pages and app screens, checked in a real browser",
+      "source": {
+        "source": "github",
+        "repo": "Leonxlnx/taste-skill",
+        "sha": "b9ca2fd8047f4c72d7da90ebc1c1203e57c72cd2"
+      },
+      "strict": false,
+      "skills": [
+        "./skills/taste-skill"
+      ]
+    },
+    {
       "name": "skill-scanner",
       "description": "Third-party, pinned: Sentry static security scanner for agent skills (prompt injection, malicious scripts, permissions, secrets). Global tool, used before adding any skill.",
       "source": {
