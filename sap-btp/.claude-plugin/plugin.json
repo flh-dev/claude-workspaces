@@ -1,12 +1,15 @@
 {
   "name": "sap-btp",
-  "version": "0.1.0",
-  "description": "SAP BTP add-on (CAP, Fiori, UI5) on top of the sap base. Official SAP plugins only, no system access.",
+  "version": "0.2.0",
+  "description": "SAP BTP add-on (CAP, Fiori, UI5, AI Core / Cloud SDK for AI) on top of the sap base. Official SAP plugins plus pinned community skills, no system access.",
   "author": { "name": "flh-dev" },
   "dependencies": [
     "sap",
     "cds-mcp@claude-plugins-official",
     "sap-fiori-mcp-server@claude-plugins-official",
-    "ui5@claude-plugins-official"
+    "ui5@claude-plugins-official",
+    "sap-cloud-sdk-ai",
+    "sap-ai-core",
+    "sap-cap-capire"
   ]
 }

@@ -126,6 +126,36 @@
         "repo": "kepano/obsidian-skills",
         "sha": "3ccff5338ea700537839b21900aa5358a0402c98"
       }
+    },
+    {
+      "name": "sap-cloud-sdk-ai",
+      "description": "Third-party (community, secondsky), pinned: SAP Cloud SDK for AI (JS/TS, Java): orchestration, grounding, LangChain. Skill only",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/sap-skills.git",
+        "path": "plugins/sap-cloud-sdk-ai/skills/sap-cloud-sdk-ai",
+        "sha": "652a861d3ed422b71f01c8805f9ec03b14017cd8"
+      }
+    },
+    {
+      "name": "sap-ai-core",
+      "description": "Third-party (community, secondsky), pinned: SAP AI Core, AI Launchpad, Generative AI Hub, service plans. Skill only",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/sap-skills.git",
+        "path": "plugins/sap-ai-core/skills/sap-ai-core",
+        "sha": "652a861d3ed422b71f01c8805f9ec03b14017cd8"
+      }
+    },
+    {
+      "name": "sap-cap-capire",
+      "description": "Third-party (community, secondsky), pinned: CAP/CDS reference from Capire. Skill only; its hooks, LSP and duplicate cds-mcp stay out",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/secondsky/sap-skills.git",
+        "path": "plugins/sap-cap-capire/skills/sap-cap-capire",
+        "sha": "652a861d3ed422b71f01c8805f9ec03b14017cd8"
+      }
     }
   ]
 }
