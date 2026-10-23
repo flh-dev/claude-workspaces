@@ -99,15 +99,6 @@
       ]
     },
     {
-      "name": "mobbin",
-      "description": "Third-party (Mobbin, official), pinned: real app screens, flows and website sections via the remote Mobbin MCP (account needed); search, redesign-screen, plain-writing skills",
-      "source": {
-        "source": "github",
-        "repo": "mobbin/skills",
-        "sha": "4c3ce1f22c200b13061a4cb3fa660b2b1f4ff7c7"
-      }
-    },
-    {
       "name": "skill-scanner",
       "description": "Third-party, pinned: Sentry static security scanner for agent skills (prompt injection, malicious scripts, permissions, secrets). Global tool, used before adding any skill.",
       "source": {
