@@ -1,0 +1,11 @@
+{
+  "name": "go",
+  "version": "0.1.0",
+  "description": "Go workspace: gopls code intelligence",
+  "author": {
+    "name": "flh-dev"
+  },
+  "dependencies": [
+    "gopls-lsp@claude-plugins-official"
+  ]
+}

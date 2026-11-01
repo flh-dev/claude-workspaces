@@ -45,6 +45,11 @@
       "description": "Microsoft 365 workspace"
     },
     {
+      "name": "go",
+      "source": "./go",
+      "description": "Go workspace"
+    },
+    {
       "name": "python",
       "source": "./python",
       "description": "Python workspace"
