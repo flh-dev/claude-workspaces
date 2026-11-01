@@ -1,7 +1,7 @@
 {
   "name": "web",
-  "version": "0.2.0",
-  "description": "Web platform workspace: browser testing, TypeScript code intelligence, accessibility, performance, SEO, Astro and Cloudflare docs",
+  "version": "0.3.0",
+  "description": "Web platform workspace: browser testing, TypeScript code intelligence, accessibility, performance, SEO and current web guidance",
   "dependencies": [
     "modern-web-guidance@claude-plugins-official",
     "playwright@claude-plugins-official",
