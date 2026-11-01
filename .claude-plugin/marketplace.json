@@ -12,7 +12,17 @@
     {
       "name": "design",
       "source": "./design",
-      "description": "UI/UX design workspace"
+      "description": "Design craft: critique, polish, motion and UI review of an existing interface"
+    },
+    {
+      "name": "design-explore",
+      "source": "./design-explore",
+      "description": "Design exploration: art direction, styles and palettes for a new visual direction"
+    },
+    {
+      "name": "web",
+      "source": "./web",
+      "description": "Web platform: browser testing, accessibility, performance, SEO and current web guidance"
     },
     {
       "name": "sap",
@@ -155,6 +165,16 @@
         "url": "https://github.com/secondsky/sap-skills.git",
         "path": "plugins/sap-cap-capire/skills/sap-cap-capire",
         "sha": "652a861d3ed422b71f01c8805f9ec03b14017cd8"
+      }
+    },
+    {
+      "name": "impeccable",
+      "description": "Third-party, pinned: design critique, audit and polish",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pbakaus/impeccable.git",
+        "path": "plugin",
+        "sha": "02523aec3e4c4580102d996d1b6a71fbe062e03f"
       }
     }
   ]

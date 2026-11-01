@@ -1,10 +1,13 @@
 {
   "name": "m365",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Microsoft 365 workspace (tenant, Copilot, SharePoint/SPFx): Microsoft Learn docs search and SPFx skills",
-  "author": { "name": "flh-dev" },
+  "author": {
+    "name": "flh-dev"
+  },
   "dependencies": [
     "microsoft-docs@claude-plugins-official",
-    "spfx-dev-skills"
+    "spfx-dev-skills",
+    "document-skills@anthropic-agent-skills"
   ]
 }

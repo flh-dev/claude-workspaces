@@ -1,0 +1,14 @@
+{
+  "name": "design-explore",
+  "version": "0.1.0",
+  "description": "Design exploration workspace: art direction, styles and palettes for a new visual direction",
+  "dependencies": [
+    "frontend-design@claude-plugins-official",
+    "ui-ux-pro-max",
+    "interface-design",
+    "taste-skill"
+  ],
+  "author": {
+    "name": "flh-dev"
+  }
+}
