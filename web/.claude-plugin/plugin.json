@@ -1,11 +1,12 @@
 {
   "name": "web",
-  "version": "0.1.0",
-  "description": "Web platform workspace: browser testing, accessibility, performance, SEO and current web guidance",
+  "version": "0.2.0",
+  "description": "Web platform workspace: browser testing, TypeScript code intelligence, accessibility, performance, SEO, Astro and Cloudflare docs",
   "dependencies": [
+    "modern-web-guidance@claude-plugins-official",
     "playwright@claude-plugins-official",
-    "web-quality-skills",
-    "modern-web-guidance@claude-plugins-official"
+    "typescript-lsp@claude-plugins-official",
+    "web-quality-skills"
   ],
   "author": {
     "name": "flh-dev"

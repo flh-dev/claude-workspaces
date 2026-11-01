@@ -20,3 +20,14 @@ for plugin in "$@"; do
   [[ $plugin == *@* ]] || plugin="$plugin@workspaces"
   claude plugin install "$plugin"
 done
+
+# LSP plugins need their language server on PATH; the cloud image ships neither.
+for plugin in "$@"; do
+  case $plugin in
+    web) npm install -g typescript-language-server typescript ;;
+    go)
+      go install golang.org/x/tools/gopls@latest
+      ln -sf "$(go env GOPATH)/bin/gopls" /usr/local/bin/gopls
+      ;;
+  esac
+done

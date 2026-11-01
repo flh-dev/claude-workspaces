@@ -22,7 +22,7 @@
     {
       "name": "web",
       "source": "./web",
-      "description": "Web platform: browser testing, accessibility, performance, SEO and current web guidance"
+      "description": "Web platform: browser testing, TypeScript code intelligence, accessibility, performance, SEO, Astro and Cloudflare docs"
     },
     {
       "name": "sap",
