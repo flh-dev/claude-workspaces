@@ -7,8 +7,8 @@
 #     | bash -s -- design web cloudflare@claude-plugins-official
 #
 # Arguments: bundle names from this marketplace, or full plugin@marketplace ids.
-# core@workspaces is always installed. The environment caches the result, so
-# new pins arrive when the environment cache is rebuilt.
+# Plugins wanted in every session are enabled on the claude.ai account instead.
+# The environment caches the result, so new pins arrive when its cache is rebuilt.
 set -euo pipefail
 
 add_marketplace() { claude plugin marketplace add "$1" || true; }
@@ -16,7 +16,7 @@ add_marketplace anthropics/claude-plugins-official
 add_marketplace anthropics/skills
 add_marketplace flh-dev/claude-workspaces
 
-for plugin in core "$@"; do
+for plugin in "$@"; do
   [[ $plugin == *@* ]] || plugin="$plugin@workspaces"
   claude plugin install "$plugin"
 done

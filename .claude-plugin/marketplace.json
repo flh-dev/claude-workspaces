@@ -10,11 +10,6 @@
   ],
   "plugins": [
     {
-      "name": "core",
-      "source": "./core",
-      "description": "Core plugins for every session, local and cloud"
-    },
-    {
       "name": "design",
       "source": "./design",
       "description": "Design craft: critique, polish, motion and UI review of an existing interface"
