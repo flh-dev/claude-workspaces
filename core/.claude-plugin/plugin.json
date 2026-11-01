@@ -1,0 +1,16 @@
+{
+  "name": "core",
+  "version": "0.1.0",
+  "description": "Core workspace: the plugins every session gets, locally at user scope and in every cloud environment",
+  "author": {
+    "name": "flh-dev"
+  },
+  "dependencies": [
+    "superpowers@claude-plugins-official",
+    "context7@claude-plugins-official",
+    "security-guidance@claude-plugins-official",
+    "claude-security@claude-plugins-official",
+    "playwright@claude-plugins-official",
+    "skill-scanner"
+  ]
+}
